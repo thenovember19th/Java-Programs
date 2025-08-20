@@ -21,8 +21,11 @@ public class StudentGrade {
         else if(marks>=50 && marks<=59){
             System.out.println("You got grade D");
         }
-        else {
+        else if(marks>=0 && marks<=49) {
             System.out.println("Sorry!! You are failed");
+        }
+        else {
+            System.out.println("Please enter valid marks");
         }
     }
 }
