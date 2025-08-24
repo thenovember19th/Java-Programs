@@ -19,7 +19,6 @@ public class Calculator {
                     "4. Division \n" +
                     "0. Exit \n");
             sc.nextLine();
-
             choice = sc.nextLine();
 
             switch (choice) {
