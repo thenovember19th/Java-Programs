@@ -18,7 +18,7 @@ public class Calculator {
                     "3. Product \n" +
                     "4. Division \n" +
                     "0. Exit \n");
-            sc.nextLine();
+            sc.nextLine();   //Because nextDouble() does not eat the Enter key, and then nextLine() accidentally eats it instead of waiting.
             choice = sc.nextLine();
 
             switch (choice) {
